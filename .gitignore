@@ -1,0 +1,8 @@
+apache-maven-3.6.3
+bitbucket\bitbucketVolume
+jdk-11.0.9.1+1
+.idea
+postgres\database\data
+postgres\generic\data
+
+/jenkins/data/
