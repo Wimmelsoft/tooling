@@ -10,5 +10,17 @@ Not included with the repository but should be in the filesystem:
 - data directories for Jenkins (to persist the workspace and configuration)
 - data directories for the databases
 
+Before starting the stack:
+
+```
+docker volume create bitbucketVolume
+```
+
+Then execute the following command:
+
+```
+docker stack deploy -c ./tools.yml tools
+```
+
 Issue: bitbucket keeps starting up in the setup, and does not persist the configuration
 
